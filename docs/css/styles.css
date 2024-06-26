@@ -33,8 +33,6 @@ header {
     padding: 5px;
     border: 4px solid black;
     font-size: 1.25em;
-    height: 80px;
-    weight: 20px;
 }
 
 .section-text{
@@ -63,7 +61,7 @@ header {
 
 @media (min-width: 768px) and (max-width: 991px) {
     .section {
-        width: 48%;
+              width: 48%;
         float: left;
         position: relative; 
     }
@@ -92,5 +90,13 @@ header {
     .section-title {
         top: 10px;
         right: 10px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .chicken,
+    .beef {
+        width: 48%; /* Each section takes 48% width */
+        float: left; /* Ensure they float next to each other */
+        margin-right: 0%; /* Add some margin between them */
     }
 }
