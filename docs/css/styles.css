@@ -23,11 +23,12 @@ header {
     margin: 10px;
     position: relative;
     background-color: #f4f4f4;
+    text-align: center; /* Center align text */
 }
 
 .section-title {
     position: absolute;
-    top: 10px;
+    top: -20px; /* Adjust as needed to position above the text */
     right: 10px;
     background-color: #ccc;
     padding: 5px;
@@ -49,6 +50,8 @@ header {
     .section {
         width: 48%;
         float: left;
+        position: relative; /* Reset position for section */
+        text-align: center; /* Center align text */
     }
     .section:nth-child(2n+1) {
         clear: both;
@@ -62,6 +65,8 @@ header {
 @media (max-width: 767px) {
     .section {
         width: 100%;
+        position: relative; /* Reset position for section */
+        text-align: center; /* Center align text */
     }
 }
 
